@@ -1,0 +1,148 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    text-decoration:none;
+}
+.body{
+    font-family:'source sans pro', sans-serif;
+}
+.topo{
+    padding:10px;
+}
+.topo .limitar-largura{
+    background-color:rgb(255, 255, 255);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.limitar-largura{
+    width:100%;
+    max-width:1024px;
+    margin:0 auto;
+}
+.marca{
+    display:fled;
+    font-size:20px;
+}
+.marca h1{
+    font-weight:normal;
+}
+.marca span{
+    color:#9ab0be;
+}
+.links-topo{
+    max-width:300px;
+    width:100%;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+.links-topo a{
+    font-size:25px;
+    color:#676b6c
+}
+.banner{
+    background-image:url('../assets/img-fundo.jpg');
+    background-position:top;
+    background-size:cover;
+    height:20vh;
+    margin: 0 0 80px 0;
+}
+.quarto{
+    margin-bottom: 60px;
+    width:100%;
+}
+.quarto .limitar-largura{
+display:flex;
+flex-flow: column wrap;
+justify-content:center;
+}
+.quarto .texto{
+    margin-bottom:80px;
+    display:flex;
+    justify-content:center;
+    flex-flow:column nowrap;
+    align-items:center;
+}
+.quarto .texto h2{
+    margin-bottom:40px;
+    font-size:40px;
+    font-weight:normal;
+    color:#000000c2;
+}
+.quarto .texto p{
+    color:#000000c2;
+}
+.galeria{
+    width:100%;
+    gap:10px;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    flex:1 1 auto;
+    margin-bottom:80px;
+}
+.imagens-quartos{
+    max-width:320px;
+    width:100%;    
+}
+.imagens-quartos img{
+    width:100%;
+    height:100%
+}
+.informaçoes{
+    max-width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+.informaçoes .lista{
+
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+}
+.lista li{
+    flex: 0 0 250px;    
+    margin:3px;
+}
+.informaçoes h3{
+    margin-bottom:40px;
+}
+.rodape{
+    background-color:#49997c;
+    padding:20px;
+    color:white;
+}
+.rodape .contato{
+    max-width:100%;
+    display:flex;
+    box-shadow: 0 2px 0 0 #0000003b;
+    align-items:center;
+    flex-wrap:wrap;
+    flex:0 0 auto;
+}
+.box-contato{
+    max-width:200px;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    flex: 1 1 auto;
+    align-items:center;
+    margin:30px;
+}
+.icone{
+    max-width:25px;
+    width:100%;
+    margin:10px;
+}
+.icone img{
+    width:100%;
+}
+.copiryght{
+    text-align:center;
+    padding-top:10px;
+}
+

@@ -24,8 +24,10 @@ body{
     max-width:350px;
     min-width:250px;
     display:flex;
-    justify-content:space-around;    
+    justify-content:space-evenly;
+    align-items:center;    
 }
+
 .limita-largura{
     max-width:1024px;
     margin: 0 auto;
@@ -93,18 +95,6 @@ font-size:70px;
     align-items:center;
     flex-flow:column nowrap;
 }
-.quartos .texto{
-    text-align:center;
-    margin-bottom:40px
-}
-.quartos .texto h2{
-    font-weight:normal;
-    font-size:40px;
-    padding:80px 0 20px;
-}
-.quartos .texto p{
-    margin: 0 0 20px;
-}
 .texto-box{
     font-size:25px;
     color:#464849;
@@ -115,33 +105,12 @@ font-size:70px;
 .endereço{
     margin:0 auto;
 }
-.endereço .texto-rota{
-    text-align:center;
-}
-.texto-rota h2{
-    font-size:40px;
-    font-weight:normal;
-    margin:40px 0 20px
-}
-.texto-rota p{
-    margin:0 0 40px;
-}
 .endereço .mapa iframe{
     width:100%;
 }
-.texto-sobre{
-    text-align:center;
-    margin:0 0 60px;
-}
-.texto-sobre h2{
-    margin:40px 0 30px;
-}
-.texto-sobre p{
-    margin:0 0 40px;
-}
 .sobre{
     width:100%;
-    margin-bottom:70px;
+    margin-bottom:40px;
 }
 .galeria{
     width:100%;
@@ -180,7 +149,8 @@ font-size:70px;
     display:flex;
     box-shadow: 0 2px 0 0 #0000003b;
     align-items:center;
-    
+    flex-wrap:wrap;
+    flex:0 0 auto;
 }
 .box-contato{
     max-width:200px;
@@ -203,6 +173,20 @@ font-size:70px;
     text-align:center;
     padding-top:10px;
     
+}
+.texto-dois{
+    margin-bottom:40px;
+    text-align:center;
+}
+.texto-dois h2{
+    margin:80px 0 30px;
+    font-weight:normal;
+    font-size:40px;
+    color:#868383;
+
+}
+.texto-dois p{
+    margin:0 0 10px
 }
 
 
